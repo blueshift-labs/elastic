@@ -35,8 +35,8 @@ import (
 	tracesdk "go.opentelemetry.io/otel/sdk/trace"
 	semconv "go.opentelemetry.io/otel/semconv/v1.7.0"
 
-	"github.com/olivere/elastic/v7"
-	"github.com/olivere/elastic/v7/trace/opentelemetry"
+	"github.com/blueshift-labs/elastic/v7"
+	"github.com/blueshift-labs/elastic/v7/trace/opentelemetry"
 )
 
 func main() {
